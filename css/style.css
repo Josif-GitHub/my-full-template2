@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', Sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+nav a {
+color: #fff;
+display: block;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #4a4a4f;
+}
+
+.card {
+    float: left;
+    /* 20% of the width of the screen*/
+    width: 20%; 
+    margin-left: 10%;
+
+}
+
+.card a {
+    text-align: center;
+}
+
+img {
+    /* It's a relative with. 
+    It's 100% of the width of the container that it's in. 
+    Our ".card" - the container, is 20 % of the screen width. 
+    So our image will be 100% of that width (our .card container), 
+    not 100% of the width of the screen. */
+    width: 100%;
+    height: 180px;
+}
+
+h1 {
+    text-align: center;
+}
+
